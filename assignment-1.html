@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Anastasia Kovalchuk - 19317511</title>
+        <link rel="stylesheet" href="assignment-1.css" type="text/css">
+        <script type="text/javascript">
+            function fn1()
+            {
+                document.getElementById("result").innerHTML = "[ " + document.getElementById('text1').value + " ]";
+            }
+        </script>
+    </head>
+    <body>
+        <input type="text" id="text1" placeholder="Enter the date (DD/MM/YY)"><br><p></p>
+        <input onClick="fn1()" type="submit" value="Submit"> <br>
+        <div style = "position:relative; left:46%; bottom:-760px; align-self: auto;">
+            <h1><span id="result"></span></h1>
+        </div>
+        <div class="tsix">
+            <button class="subtract tabular" id="subtract1" onClick='subtracting1("center1")'>-</button>
+            <input class="numberCircle tabular" id="center1" readonly="" value="0"></input>
+            <button class="add tabular" id="add1" onClick='adding1("center1")'>+</button>
+        </div>
+        <div class="tfive">
+            <button class="subtract tabular" id="subtract2" onClick='subtracting2("center2")'>-</button>
+            <input class="numberCircle tabular" id="center2" readonly="" value="0"></input>
+            <button class="add tabular" id="add2" onClick='adding2("center2")'>+</button>
+        </div>
+        <div class="tfour">
+            <button class="subtract tabular" id="subtract3" onClick='subtracting3("center3")'>-</button>
+            <input class="numberCircle tabular" id="center3" readonly="" value="0"></input>
+            <button class="add tabular" id="add3" onClick='adding3("center3")'>+</button>
+        </div>
+        <div class="tthree">
+            <button class="subtract tabular" id="subtract4" onClick='subtracting4("center4")'>-</button>
+            <input class="numberCircle tabular" id="center4" readonly="" value="0"></input>
+            <button class="add tabular" id="add4" onClick='adding4("center4")'>+</button>
+        </div>
+        <div class="ttwo">
+            <button class="subtract tabular" id="subtract5" onClick='subtracting5("center5")'>-</button>
+            <input class="numberCircle tabular" id="center5" readonly="" value="0"></input>
+            <button class="add tabular" id="add5" onClick='adding5("center5")'>+</button>
+        </div>
+        <div class="wrapper">
+            <div class="tcone"></div>
+            <button class="subtractCircle tabular" id="subtract6" onClick='subtracting6("center6")'>-</button>
+            <input class="middleCircle tabular" id="center6" readonly="" value="0"></input>
+            <button class="addCircle tabular" id="add6" onClick='adding6("center6")'>+</button>
+        </div>
+        <script src="assignment-1.js"></script>
+    </body>
+</html>
