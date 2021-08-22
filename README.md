@@ -1,5 +1,5 @@
 # Interactive Food Pyramid
-Interactive Food Pyramid chart using HTML/CSS/JS.
+Interactive Food Pyramid chart using HTML/CSS/JS made during a college assignment for the module CS230 - Web Information Processing.
 
 **The Task:** For this assignment, you are required to develop an interactive food pyramic chart using HTML/CSS/JS, similar to the one shown in Figure 1 below.
 <p align="center">
