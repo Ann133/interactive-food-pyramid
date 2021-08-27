@@ -3,11 +3,7 @@ Interactive Food Pyramid chart using HTML/CSS/JS made during a college assignmen
 
 **The Task:** For this assignment, you are required to develop an interactive food pyramic chart using HTML/CSS/JS, similar to the one shown in Figure 1 below.
 <p align="center">
-   <img width="500" height="450" src="https://user-images.githubusercontent.com/61714473/131113967-6d4141d1-aa58-4736-a663-9642271ce455.png">
-</p> <br>
-
-<p align="center">
-   <img width="500" height="450" src="https://user-images.githubusercontent.com/61714473/131114040-30a1753d-d0bf-4715-92af-50113ad469ca.png">
+   <img width="500" height="450" src="https://user-images.githubusercontent.com/61714473/131114207-311aea44-ee82-4100-a29b-e8e8207a26ce.png">
 </p> <br>
 
 **Requirements:** Your assignment is to create an interactive food diary that allows users to record the different food shelf details for the day, and to record the date. You do not need to create a database, etc. just work on the "front end", i.e. the food pyramid and interactive elements.
